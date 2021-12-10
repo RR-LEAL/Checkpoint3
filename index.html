@@ -45,20 +45,33 @@
 
     <main class="main-content">   
 
-      <section class="main-banner">
-     
-      <div class="banner-items">
-        
-        <span class="banner-title">
-          <h1>DH FLIX</h1>
-        </span>
-    
-        <p class="text-banner">Confira a maior coletânea de filmes que a Digital House tem a te oferecer</p>
-    
-        <button type="button" class="btn btn-outline-success">Explorar</button>
-
-      </div>  
-        
+      <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/imagens/kong-poster.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/imagens/duna-poster.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/imagens/thor-poster.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </section>
 
       <section class="main-cards">
@@ -66,7 +79,7 @@
         <h1 class="title-cards">Catálogo</h1>
 
          <div class="container-cards">
-           <div class="row">
+           <div class="row center">
 
             <div class="col-12 col-md-4">
               <div class="card">
