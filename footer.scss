@@ -12,6 +12,8 @@ footer {
 
         font-size: 24px;
         margin-bottom: 16px;
+        padding: 20px;
+        justify-content: center;
 
     }
 
@@ -28,11 +30,15 @@ footer {
         a {
 
             text-decoration: none;
+            justify-content: center;
+        
 
             img {
                 
                 width: 50px;
                 opacity: .5;
+                
+                
 
                 &:hover{
 
