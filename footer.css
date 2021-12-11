@@ -40,7 +40,7 @@ footer div a img:hover {
 
 .first-dev {
   display: block;
-  text-align: left;
+  text-align: center;
 }
 
 .second-dev {
@@ -50,7 +50,7 @@ footer div a img:hover {
 
 .third-dev {
   display: block;
-  text-align: right;
+  text-align: center;
 }
 
 .project-created {

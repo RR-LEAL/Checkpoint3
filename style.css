@@ -57,6 +57,18 @@ body {
   color: red !important;
 }
 
+.modal-logo {
+  width: 170px;
+  height: 50px;
+}
+
+.btn-primary {
+  width: 500px !important;
+  background: #33BB69 !important;
+  border-radius: 12px;
+  color: white;
+}
+
 section {
   margin: 0 auto;
 }
