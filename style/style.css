@@ -123,6 +123,10 @@ body {
   font-weight: 300;
 }
 
+.main-banner a {
+  text-decoration: none;
+}
+
 .main-banner .btn {
   display: block;
   width: 320px;
