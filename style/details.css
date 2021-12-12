@@ -18,6 +18,14 @@ html {
      object-fit: unset;
 }
 
+@media screen and (max-width: 560px) {
+  .details .details-image {
+    height: 80vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
 .details .details-wrapper {
   max-width: 1440px;
   margin: 0 auto;
@@ -53,6 +61,16 @@ html {
   display: -ms-flexbox;
   display: flex;
   gap: 100px;
+}
+
+@media screen and (max-width: 560px) {
+  .details .description {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 0;
+  }
 }
 
 .details .description h3 {
